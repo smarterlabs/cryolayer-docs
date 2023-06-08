@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CryoLayer',
+  title: 'CryoLayer Docs',
   // tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -64,12 +64,12 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CryoLayer',
+        // title: 'CryoLayer',
         logo: {
           alt: 'CryoLayer Logo',
-          src: 'img/logo.svg',
-          // href: 'https://cryolayer.com/',
-          // srcDark: 'img/logo-dark.svg',
+          src: 'img/logo-light.svg',
+          href: 'https://cryolayer.com/',
+          srcDark: 'img/logo-dark.svg',
         },
         items: [
           // {
@@ -78,7 +78,8 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://cryolayer.com/', label: 'Home', position: 'left'},
+          {to: '/', label: 'Docs', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -89,15 +90,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/',
+          //     },
+          //   ],
+          // },
           // {
           //   title: 'Community',
           //   items: [
