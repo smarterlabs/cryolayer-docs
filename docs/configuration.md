@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 slug: /configuration
 ---
 
@@ -13,7 +13,7 @@ An object of Webflow URLs to proxy. The key is the path where the site will be a
 
 ## `canonical`
 
-The canonical URL of your site. This is used to generate the `canonical` meta tag and the `sitemap.xml` file.
+The canonical URL of your site used in the `<head>` tag. This is used for SEO purposes. Set this to the URL of your site in Cloudflare.
 
 ## `removeWebflowJs`
 

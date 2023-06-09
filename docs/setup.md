@@ -16,3 +16,17 @@ Click the "Use this template" button, then click "Create a new repository". (See
 Edit the `config.js` file in the root of your repository. Make sure to set `webflowUrls` and `canonical` to the correct values.
 
 For a full list of configuration options, see the [Configuration](/configuration) page.
+
+## Deploying to Cloudflare Workers
+
+### Install the Cloudflare CLI
+
+The Cloudflare CLI is used to deploy your site to Cloudflare Workers. See [Cloudflare's docs](https://developers.cloudflare.com/workers/cli-wrangler/install-update) for installation instructions.
+
+Run `wrangler login` and follow the instructions to log in to Cloudflare.
+
+### Deploy your site
+
+Run `wrangler deploy` to deploy your site to Cloudflare Workers.
+
+Set your domain to point to your Cloudflare Workers site. See [Cloudflare's docs](https://developers.cloudflare.com/workers/platform/triggers/custom-domains/) for more info.
