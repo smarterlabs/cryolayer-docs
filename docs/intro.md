@@ -18,3 +18,7 @@ CryoLayer is a reverse proxy for Webflow websites. It allows you to host your We
 - Automatic WebP image conversion
 - Automatic image optimization
 - API endpoints
+
+# Required Knowledge
+- [Git](https://git-scm.com/)
+- [Cloudflare Workers](https://workers.cloudflare.com/)

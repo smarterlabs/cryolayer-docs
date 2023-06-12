@@ -31,11 +31,11 @@ The contents of the `sitemap.xml` file. Exclude this property to automatically g
 
 Whether to proxy images through Cloudinary. This allows you to use Cloudinary's image optimization features. You must set the `cloudinaryCloudName` property for this to work.
 
-## `imagePath`
+## `cloudinaryCloudName`
 
-The Cloudinary proxy path to use for images. See the [Cloudinary](/cloudinary) page for more info on Cloudinary configuration.
+Your Cloudinary cloud name to use. This is required if you want to use Cloudinary image optimization.
 
-## `imageFormat`
+## `cloudinaryImageFormat`
 
 The Cloudinary transform parameters to use. By default it is set up to automatically compress and convert your images to WebP if the user's browser supports it. See the [Cloudinary docs](https://cloudinary.com/documentation/transformation_reference) for more info.
 
