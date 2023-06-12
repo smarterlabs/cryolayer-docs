@@ -13,6 +13,8 @@ Click the "Use this template" button, then click "Create a new repository". (See
 
 ## Configuration Quickstart
 
+Clone your new repository and install dependencies with `npm install` or `yarn`.
+
 Edit the `config.js` file in the root of your repository. Make sure to set `webflowUrls` and `canonical` to the correct values.
 
 For a full list of configuration options, see the [Configuration](/configuration) page.
@@ -27,6 +29,6 @@ Run `wrangler login` and follow the instructions to log in to Cloudflare.
 
 ### Deploy your site
 
-Run `wrangler deploy` to deploy your site to Cloudflare Workers.
+Run `wrangler deploy` to deploy your site to Cloudflare Workers. Your terminal will display a URL where your site is available.
 
 Set your domain to point to your Cloudflare Workers site. See [Cloudflare's docs](https://developers.cloudflare.com/workers/platform/triggers/custom-domains/) for more info.
