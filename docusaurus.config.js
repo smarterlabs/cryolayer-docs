@@ -54,16 +54,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
         gtag: {
           trackingID: 'G-D6F7Q60E2D',
           anonymizeIP: false,
         },
-      },
+      }),
     ],
   ],
 
