@@ -7,7 +7,7 @@ slug: /setup
 
 ## Cloning the CryoLayer Template Repository
 
-The CryoLayer template repository is available on GitHub at [https://github.com/smarterlabs/cryolayer-proxy](https://github.com/smarterlabs/cryolayer-proxy).
+The CryoLayer template repository is available on GitHub at [https://github.com/smarterlabs/cryolayer-worker](https://github.com/smarterlabs/cryolayer-worker).
 
 Click the "Use this template" button, then click "Create a new repository". (See [GitHub's docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) for more info if necessary.)
 
