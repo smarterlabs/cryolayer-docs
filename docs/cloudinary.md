@@ -27,11 +27,11 @@ Enter the following values:
 
 Folder | URL prefix
 --- | ---
-`https://assets.website-files.com/` | `cryolayer/a`
-`https://assets-global.website-files.com/` | `cryolayer/b`
-`https://uploads-ssl.webflow.com/` | `cryolayer/c`
-`https://global-uploads.webflow.com/` | `cryolayer/d`
-`https://d3e54v103j8qbb.cloudfront.net/` | `cryolayer/e`
+`cryolayer/a` | `https://assets.website-files.com/`
+`cryolayer/b` | `https://assets-global.website-files.com/`
+`cryolayer/c` | `https://uploads-ssl.webflow.com/`
+`cryolayer/d` | `https://global-uploads.webflow.com/`
+`cryolayer/e` | `https://d3e54v103j8qbb.cloudfront.net/`
 
 Click the "Save" button.
 
